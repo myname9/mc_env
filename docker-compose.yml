@@ -1,0 +1,13 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: "3.1"
+services:
+
+    java:
+      image: openjdk:8
+      container_name: java-openjdk8
+      working_dir: /application
+      volumes:
+        - .:/application
+      tty: true
