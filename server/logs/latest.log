@@ -1,0 +1,34 @@
+[14:29:15] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[14:29:15] [Server thread/INFO]: Loading properties
+[14:29:15] [Server thread/INFO]: Default game type: SURVIVAL
+[14:29:15] [Server thread/INFO]: Generating keypair
+[14:29:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:29:15] [Server thread/INFO]: Using epoll channel type
+[14:29:15] [Server thread/INFO]: Preparing level "world"
+[14:29:16] [Server thread/INFO]: Loaded 488 advancements
+[14:29:17] [Server thread/INFO]: Preparing start region for level 0
+[14:29:18] [Server thread/INFO]: Preparing spawn area: 7%
+[14:29:19] [Server thread/INFO]: Preparing spawn area: 12%
+[14:29:20] [Server thread/INFO]: Preparing spawn area: 18%
+[14:29:21] [Server thread/INFO]: Preparing spawn area: 27%
+[14:29:22] [Server thread/INFO]: Preparing spawn area: 37%
+[14:29:23] [Server thread/INFO]: Preparing spawn area: 46%
+[14:29:24] [Server thread/INFO]: Preparing spawn area: 56%
+[14:29:25] [Server thread/INFO]: Preparing spawn area: 64%
+[14:29:26] [Server thread/INFO]: Preparing spawn area: 72%
+[14:29:27] [Server thread/INFO]: Preparing spawn area: 83%
+[14:29:28] [Server thread/INFO]: Preparing spawn area: 93%
+[14:29:28] [Server thread/INFO]: Done (12.920s)! For help, type "help" or "?"
+[14:29:34] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[14:29:36] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[14:29:47] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[14:29:49] [Server thread/INFO]: Stopping the server
+[14:29:49] [Server thread/INFO]: Stopping server
+[14:29:49] [Server thread/INFO]: Saving players
+[14:29:49] [Server thread/INFO]: Saving worlds
+[14:29:49] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[14:29:49] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[14:29:49] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[14:29:50] [Server Shutdown Thread/INFO]: Stopping server
+[14:29:50] [Server Shutdown Thread/INFO]: Saving players
+[14:29:50] [Server Shutdown Thread/INFO]: Saving worlds
