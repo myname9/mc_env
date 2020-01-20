@@ -1,0 +1,66 @@
+---- Minecraft Crash Report ----
+// I feel sad now :(
+
+Time: 1/19/20 4:37 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [mc1.12-r15,): have missing
+
+Missing Mods:
+	unknown : need [2.8.74,): have missing
+
+net.minecraftforge.fml.common.MultipleModsErrored
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:298)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:570)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.4.0-105-generic
+	Java Version: 1.8.0_232, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 855492248 bytes (815 MB) / 1181220864 bytes (1126 MB) up to 1431830528 bytes (1365 MB)
+	JVM Flags: 2 total; -Xmx1536M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 22 mods loaded, 22 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                    | Version           | Source                                            | Signature                                |
+	|:----- |:--------------------- |:----------------- |:------------------------------------------------- |:---------------------------------------- |
+	| U     | minecraft             | 1.12.2            | minecraft.jar                                     | None                                     |
+	| U     | mcp                   | 9.42              | minecraft.jar                                     | None                                     |
+	| U     | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2768-universal.jar           | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| U     | forge                 | 14.23.5.2768      | forge-1.12.2-14.23.5.2768-universal.jar           | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| U     | buildcraftbuilders    | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcraftcore        | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcraftenergy      | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcraftfactory     | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcraftlib         | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcraftrobotics    | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcraftsilicon     | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | buildcrafttransport   | 7.99.19           | [BC]buildcraft-7.99.19.jar                        | None                                     |
+	| U     | tconstruct            | 1.12.2-2.12.0.115 | [匠魂2]TConstruct-1.12.2-2.12.0.115.jar             | None                                     |
+	| U     | mantle                | 1.12-1.3.3.39     | [匠魂前置-地幔]Mantle-1.12-1.3.3.39.jar                 | None                                     |
+	| U     | jei                   | 4.15.0.268        | [合成表]jei_1.12.2-4.15.0.268.jar                    | None                                     |
+	| U     | theoneprobe           | 1.4.28            | [探机]theoneprobe-1.12-1.4.28.jar                   | None                                     |
+	| U     | journeymap            | 1.12.2-5.5.0rc1   | [旅行者地图]JourneyMap-Mod-1.12.2-Unlimited.jar        | None                                     |
+	| U     | twilightforest        | 3.8.689           | [暮色森林]twilightforest-1.12.2-3.8.689-universal.jar | None                                     |
+	| U     | lastsmith             | 1.2.2             | [最后的太刀匠人]TLS_V1.2.2_MC1.12.2.jar                  | None                                     |
+	| U     | baubles               | 1.5.2             | [饰品栏]Baubles-1.12-1.5.2.jar                       | None                                     |
+	| U     | appliedenergistics2   | rv5-stable-11     | appliedenergistics2-rv5-stable-11.jar             | None                                     |
+	| U     | advanced_solar_panels | 4.2.0             | 高级太阳能.jar                                         | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

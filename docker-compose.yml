@@ -11,3 +11,5 @@ services:
       volumes:
         - .:/application
       tty: true
+      ports:
+        - "25565:25565"
